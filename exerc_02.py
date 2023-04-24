@@ -24,8 +24,6 @@ para receber entrada de dados. Exemplo:
 def jogo_dados(turno):
     '''Define como o jogo funciona'''
 
-    turno = 1
-
     # Começando um novo turno
     print("\nIniciando o turno", turno, "do jogo de dados.")
     print("\n\tChefina X Chefe")
@@ -53,9 +51,9 @@ def jogo_dados(turno):
     else:
         print("\n>> Nenhum dos dois teve um bom turno.")
 
-    # Verifica se o jogo continua
     # Lower para tratar as entradas do usuários
-    resposta = input("\nContinuar jogo S ou N: ").lower
+    resposta = (input("\nContinuar jogo S ou N: ")).lower()
+    # Verifica se o jogo continua
     if (resposta == "s" or resposta == "sim"):
         print("\nComençando nova partida!")
         turno += 1
