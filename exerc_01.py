@@ -1,8 +1,6 @@
 
-class Exercicio:
-
-    ''' Escreva um programa que recebe um número N como entrada e mostre esse número invertido como saída.
-                Crie uma função para a solução desse problema.'''
+''' Escreva um programa que recebe um número N como entrada e mostre esse número invertido como saída.
+    Crie uma função para a solução desse problema.'''
 
 
 def inverter_numero(num):
@@ -22,6 +20,7 @@ def imprimir_numero_invertido():
     # Usuário entra com um número inteiro
     s_num = input("Informe um número inteiro: ")
     num = int(s_num)
+
     # Invertendo o número
     num_invertido = inverter_numero(num)
     # Imprime o número invertido
