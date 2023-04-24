@@ -1,8 +1,7 @@
 import random
 
 '''
-Chefe e Chefina jogam dado. Em cada turno, eles jogam um par de dados, cada um. Eles consideram um bom turno 
-se a soma dos valores dos dois dados for maior que 6. Escreva um programa que apresente como saída desse jogo a seguinte estrutura:
+Chefe e Chefina jogam dado. Em cada turno, eles jogam um par de dados, cada um. Eles consideram um bom turno se a soma dos valores dos dois dados for maior que 6. Escreva um programa que apresente como saída desse jogo a seguinte estrutura:
 
 - - -Chefina joga
 Valor somado nos dois dados: x
@@ -12,9 +11,7 @@ Valor somado nos dois dados: y
 
 - - - Continuar jogo S ou N: 
 
-Se a escolha for S, então uma nova rodada acontece. Caso contrário, o programa encerra. Use o módulo 'random' 
-do python com o método 'randint()'. Dê uma pesquisada sobre esse método. Use, também, a função input(“mensagem”) 
-para receber entrada de dados. Exemplo:
+Se a escolha for S, então uma nova rodada acontece. Caso contrário, o programa encerra. Use o módulo 'random' do python com o método 'randint()'. Dê uma pesquisada sobre esse método. Use, também, a função input(“mensagem”) para receber entrada de dados. Exemplo:
 
     n = input(“Informe um numero: “)
     print(n)
