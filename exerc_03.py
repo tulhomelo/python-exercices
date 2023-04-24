@@ -1,4 +1,4 @@
-
+''' Tulho Melo - RA 321213318 '''
 '''
 3- A maioria dos desenvolvedores praticam programação resolvendo problemas de lógica em diversas plataformas (https://www.codechef.com/practice, por exemplo). Jenneffer almeja a posição de engenharia de software e, portanto, pretende estudar e praticar bastante. Ela decide que deve resolver pelo menos 10 problemas por semana, durante 4 semanas. Escreva um programa que, dada a quantidade de problemas que ela realmente resolveu em cada semana, P1, P2, P3, e P4, informe se Jenneffer conseguiu cumprir sua meta e, quando verdade, informe em que semana ela cumpriu essa meta.
 '''

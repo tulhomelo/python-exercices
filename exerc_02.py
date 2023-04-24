@@ -1,5 +1,6 @@
 import random
 
+''' Tulho Melo - RA 321213318 '''
 '''
 Chefe e Chefina jogam dado. Em cada turno, eles jogam um par de dados, cada um. Eles consideram um bom turno se a soma dos valores dos dois dados for maior que 6. Escreva um programa que apresente como saída desse jogo a seguinte estrutura:
 
